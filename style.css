@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lc{
+    position:absolute;
+    width:100%;
+    min-height: 100vh;
+    background:linear-gradient(100deg,#262f52,#1a1919);
+    padding:10px;
+}
+.container{
+    position:relative;
+    margin:auto;
+    font-size: 20px;
+    display: grid;
+    width: 500px;
+    padding:5px 20px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 22);
+    padding: 20px;
+}   
+.row{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, auto); /* Updated: define 5 columns */
+    grid-gap: 5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}               
+.btn{
+    padding: 10px 5px;
+    border: 2px solid black;
+    margin:5px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(34, 41, 41);
+    box-shadow: 4px 4px  rgb(50, 58, 58);
+}
+.screen{
+    margin-bottom:10px;
+    grid-gap:10px 0px;
+    background-color:rgb(21, 21, 22);
+    padding:2px;
+    border-radius: 10px;
+    padding-bottom: px;
+}
+.input{
+    
+    border-radius: 10px;
+    max-width:100%;
+    margin-top: 20px;
+    padding:40px 90px;
+    font-size: 20px;
+    background-color: cadetblue;
+}
+.row .screen{
+    display:grid;
+    background-color: rgb(137, 30, 30);
+}
+#item19 {
+    grid-column: 3 / 5;
+}
+h1{
+    color:aliceblue
+}
+
+/*@media screen and (max-width: 900px) {
+    .container{
+        margin:80px 530px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container{
+        margin:80px 530px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .container{
+        margin:80px 530px;
+    }
+  }*/
